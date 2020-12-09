@@ -31,4 +31,4 @@ jobs:
       - name: set up surge
         run: npm install --global surge
       - name: Deploying on surge
-        run: surge ./ imdad_jsproject.surge.sh --toke ${{ secrets.surge_token}}
+        run: surge ./ imdad_jsproject.surge.sh --token ${{ secrets.surge_token}}
